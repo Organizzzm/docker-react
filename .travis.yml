@@ -6,4 +6,4 @@ before_install:
   - docker build -t organizzzm/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run organizm/docker-react npm run test -- --coverage
+  - docker run organizzzm/docker-react npm run test -- --coverage
